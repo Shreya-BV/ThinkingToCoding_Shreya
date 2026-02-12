@@ -36,17 +36,17 @@ A collection named vowel_data is accessed for storing records.
 The program prompts the user to enter a word or sentence.
 The input is stored in a variable for processing.
 
-4️. Vowel Counting Logic
+4️.Vowel Counting Logic
 A string containing all vowels (aeiouAEIOU) is defined to handle both lowercase and uppercase cases.
 A counter variable is initialized to 0.
 The program iterates through each character in the user input.
 If the character matches any vowel in the predefined string, the counter is incremented.
 After iteration, the counter holds the total number of vowels.
 
-5. Display Output
+5.Display Output
 The total vowel count is displayed to the user in the required format.
 
-6️. Store Data in MongoDB
+6️.Store Data in MongoDB
 A document (dictionary format) is created containing:
 The original input
 The computed vowel count
