@@ -21,37 +21,34 @@ h# Count Vowels in a Word
 9.Store the input and vowel count as a document using insert_one()
 
 # Code Summary
-1️.Import Required Library
-
-pymongo is imported to establish a connection between Python and MongoDB. 
-
+1️.Import Required Library  
+pymongo is imported to establish a connection between Python and MongoDB.   
 MongoClient is used to create a database connection instance.
 
-2️.Establish Database Connection
-
-A connection is created using:
-MongoClient("mongodb://localhost:27017/")
-This connects the application to the local MongoDB server.
-A database named internship_db is selected (created automatically if it does not exist).
+2️.Establish Database Connection  
+A connection is created using:  
+MongoClient("mongodb://localhost:27017/")  
+This connects the application to the local MongoDB server.  
+A database named internship_db is selected (created automatically if it does not exist).  
 A collection named vowel_data is accessed for storing records.
 
-3️.Accept User Input
-The program prompts the user to enter a word or sentence.
+3️.Accept User Input  
+The program prompts the user to enter a word or sentence.  
 The input is stored in a variable for processing.
 
-4️.Vowel Counting Logic
-A string containing all vowels (aeiouAEIOU) is defined to handle both lowercase and uppercase cases.
-A counter variable is initialized to 0.
-The program iterates through each character in the user input.
-If the character matches any vowel in the predefined string, the counter is incremented.
+4️.Vowel Counting Logic  
+A string containing all vowels (aeiouAEIOU) is defined to handle both lowercase and uppercase cases.  
+A counter variable is initialized to 0.  
+The program iterates through each character in the user input.  
+If the character matches any vowel in the predefined string, the counter is incremented.  
 After iteration, the counter holds the total number of vowels.
 
-5.Display Output
+5.Display Output  
 The total vowel count is displayed to the user in the required format.
 
-6️.Store Data in MongoDB
-A document (dictionary format) is created containing:
-The original input
-The computed vowel count
+6️.Store Data in MongoDB  
+A document (dictionary format) is created containing:  
+The original input  
+The computed vowel count  
 The document is inserted into the MongoDB collection using insert_one().
 
