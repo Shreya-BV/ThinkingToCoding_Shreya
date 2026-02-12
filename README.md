@@ -22,10 +22,13 @@ h# Count Vowels in a Word
 
 # Code Summary
 1️.Import Required Library
-pymongo is imported to establish a connection between Python and MongoDB.  
+
+pymongo is imported to establish a connection between Python and MongoDB. 
+
 MongoClient is used to create a database connection instance.
 
 2️.Establish Database Connection
+
 A connection is created using:
 MongoClient("mongodb://localhost:27017/")
 This connects the application to the local MongoDB server.
