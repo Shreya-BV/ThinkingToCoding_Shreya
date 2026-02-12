@@ -1,4 +1,4 @@
-# Count Vowels in a Word
+h# Count Vowels in a Word
 ## Task- Ask the user to enter a word or a sentence,then count and display the njumber of vowels in the input.  Example-   Input: "Hello World"    Output: 3 vowels
 
 # Logic Summary
@@ -22,7 +22,7 @@
 
 # Code Summary
 1️.Import Required Library
-pymongo is imported to establish a connection between Python and MongoDB.
+pymongo is imported to establish a connection between Python and MongoDB.  
 MongoClient is used to create a database connection instance.
 
 2️.Establish Database Connection
