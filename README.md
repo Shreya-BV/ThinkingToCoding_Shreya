@@ -87,3 +87,18 @@ learned how to connect Python to MongoDB using PyMongo.
 understood how a database and collection are created automatically in MongoDB.  
 learned how to store data in MongoDB in document (JSON) format.  
 understood the importance of storing results in a database instead of just printing them.
+
+# Execution Screenshot
+
+
+<img width="500" height="128" alt="Screenshot 2026-02-12 205727" src="https://github.com/user-attachments/assets/6f08e10b-0657-43d6-9d1f-84a0a276d0b6" />
+
+
+
+
+
+
+
+
+
+
