@@ -55,10 +55,8 @@ The document is inserted into the MongoDB collection using insert_one().
 # Python Code
 ~~~Python
 from pymongo import MongoClient
-
 # Connect to MongoDB (local connection)
 client = MongoClient("mongodb://localhost:27017/")
-
 # Create / Connect to database
 db = client["internship_db"]
 
