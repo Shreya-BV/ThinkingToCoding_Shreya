@@ -78,3 +78,12 @@ collection.insert_one(data)
 print("Data stored in MongoDB successfully!")
 ~~~
 
+# What I Learned
+I learned how to take input from the user in Python and process it.  
+understood how to use a loop to check each character in a string.  
+learned how to count vowels using a simple condition check.  
+understood how uppercase and lowercase letters can be handled together.  
+learned how to connect Python to MongoDB using PyMongo.  
+understood how a database and collection are created automatically in MongoDB.  
+learned how to store data in MongoDB in document (JSON) format.  
+understood the importance of storing results in a database instead of just printing them.
