@@ -94,6 +94,8 @@ understood the importance of storing results in a database instead of just print
 <img width="500" height="128" alt="Screenshot 2026-02-12 205727" src="https://github.com/user-attachments/assets/6f08e10b-0657-43d6-9d1f-84a0a276d0b6" />
 
 
+<img width="506" height="131" alt="Screenshot 2026-02-12 205851" src="https://github.com/user-attachments/assets/e85e87d8-f7b1-4a8c-866e-16a76bc041d4" />
+
 
 
 
