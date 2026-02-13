@@ -29,7 +29,7 @@ MongoClient is used to create a database connection instance.
 A connection is created using:  
 MongoClient("mongodb://localhost:27017/")  
 This connects the application to the local MongoDB server.  
-A database named internship_db is selected (created automatically if it does not exist).  
+A database named vowels is selected (created automatically if it does not exist).  
 A collection named vowel_data is accessed for storing records.
 
 ## 3️.Accept User Input  
