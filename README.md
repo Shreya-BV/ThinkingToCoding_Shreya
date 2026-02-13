@@ -16,7 +16,7 @@
 
 7.Connect to MongoDB using MongoClient.
 
-8.Create/connect to database (internship_db) and collection (vowel_data).
+8.Create/connect to database (vowels) and collection (vowel_data).
 
 9.Store the input and vowel count as a document using insert_one()
 
