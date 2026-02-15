@@ -21,37 +21,31 @@
 9.Handle database connection errors, input validation errors, and unexpected exceptions.
 
 # Code Summary
-## 1️.Import Required Library  
-pymongo is imported to establish a connection between Python and MongoDB.   
-MongoClient is used to create a database connection instance.
+1.The program starts by importing required libraries for MongoDB connectivity, error handling, and date-time operations.
 
-## 2️.Establish Database Connection  
-A connection is created using:  
-MongoClient("mongodb://localhost:27017/")  
-This connects the application to the local MongoDB server.  
-A database named vowels is selected (created automatically if it does not exist).  
-A collection named vowel_data is accessed for storing records.
+2.It establishes a connection to the local MongoDB server using MongoClient.
 
-## 3️.Accept User Input  
-The program prompts the user to enter a word or sentence.  
-The input is stored in a variable for processing.
+3.A ping command is used to verify that MongoDB is running before performing any database operations.
 
-## 4️.Vowel Counting Logic  
-A string containing all vowels (aeiouAEIOU) is defined to handle both lowercase and uppercase cases.  
-A counter variable is initialized to 0.  
-The program iterates through each character in the user input.  
-If the character matches any vowel in the predefined string, the counter is incremented.  
-After iteration, the counter holds the total number of vowels.
+4.The program accesses (or creates) a database named internship_db and a collection named vowel_data.
 
-## 5.Display Output  
-The total vowel count is displayed to the user in the required format.
+5.It prompts the user to enter a word or sentence as input.
 
-## 6️.Store Data in MongoDB  
-A document (dictionary format) is created containing:  
-The original input  
-The computed vowel count  
-The document is inserted into the MongoDB collection using insert_one().
+6.Input validation is performed to ensure that the user does not submit an empty value.
 
+7.A predefined set of vowels is used to handle both uppercase and lowercase characters.
+
+8.The program iterates through each character in the input string and counts vowels using conditional checks.
+
+9,The total vowel count is displayed to the user.
+
+10.The current date and time are captured using the datetime module to track when the data is created.
+
+11.The input, vowel count, and timestamp are stored together as a document in MongoDB.
+
+12.Exception handling is implemented to handle MongoDB connection failures, invalid input errors, and unexpected runtime issues.
+
+13.User-friendly messages are displayed for both successful execution and error scenarios.
 # Python Code
 ~~~Python
 from pymongo import MongoClient
