@@ -121,9 +121,7 @@ Gained basic understanding of backend data persistence concepts.
 
 
 
-
 <img width="929" height="116" alt="Screenshot 2026-02-15 194718" src="https://github.com/user-attachments/assets/25cfd602-737b-4a1e-96c7-111aff647966" />
-
 
 
 
@@ -134,7 +132,8 @@ Gained basic understanding of backend data persistence concepts.
 
 
 
-<img width="515" height="393" alt="Screenshot 2026-02-15 195007" src="https://github.com/user-attachments/assets/7751410a-878f-44c2-8885-084771167b97" />
+<img width="456" height="318" alt="Screenshot 2026-02-15 195155" src="https://github.com/user-attachments/assets/9a8bfdc1-a558-4fa1-89fe-bdf00034c9a2" />
+
 
 
 
