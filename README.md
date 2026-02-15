@@ -95,15 +95,25 @@ except Exception as e:
 ~~~
 
 # What I Learned
-I learned how to take input from the user in Python and process it.  
-understood how to use a loop to check each character in a string.  
-learned how to count vowels using a simple condition check.  
-understood how uppercase and lowercase letters can be handled together.  
-learned how to connect Python to MongoDB using PyMongo.  
-understood how a database and collection are created automatically in MongoDB.  
-learned how to store data in MongoDB in document (JSON) format.  
-understood the importance of storing results in a database instead of just printing them.
+Learned how to take dynamic user input and process strings in Python.
 
+Understood how to implement loop and conditional logic to count vowels in a sentence.
+
+Learned how to handle both uppercase and lowercase characters using a predefined vowel set.
+
+Gained hands-on experience connecting Python to MongoDB using the PyMongo library.
+
+Learned how MongoDB databases and collections are created and accessed programmatically.
+
+Understood how to store application data in MongoDB using document-based storage.
+
+Learned how to capture and store timestamps using Python’s datetime module.
+
+Implemented exception handling to manage database connection issues and invalid user input.
+
+Learned how to make a program more robust by preventing crashes using try and except.
+
+Gained basic understanding of backend data persistence concepts.
 # Execution Screenshot
 
 
