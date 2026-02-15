@@ -27,7 +27,7 @@
 
 3.A ping command is used to verify that MongoDB is running before performing any database operations.
 
-4.The program accesses (or creates) a database named internship_db and a collection named vowel_data.
+4.The program accesses (or creates) a database named vowels and a collection named vowel_data.
 
 5.It prompts the user to enter a word or sentence as input.
 
