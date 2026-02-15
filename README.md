@@ -2,23 +2,23 @@
 ## Task- Ask the user to enter a word or a sentence,then count and display the number of vowels in the input.  Example-   Input: "Hello World"    Output: 3 vowels
 
 # Logic Summary
-1.Accept input (word/sentence) from the user.
+1.Establish a connection to the local MongoDB server and verify availability.
 
-2.Define a string containing all vowels (aeiouAEIOU).
+2.Access or create the required database and collection.
 
-3.Initialize a counter variable to 0.
+3.Accept a word or sentence from the user.
 
-4.Loop through each character in the input.
+4.Validate the input to ensure it is not empty.
 
-5.If the character is a vowel, increment the counter.
+5.Count vowels by iterating through each character in the input.
 
 6.Display the total number of vowels.
 
-7.Connect to MongoDB using MongoClient.
+7.Capture the current date and time.
 
-8.Create/connect to database (vowels) and collection (vowel_data).
+8.Store the input, vowel count, and timestamp as a document in MongoDB.
 
-9.Store the input and vowel count as a document using insert_one()
+9.Handle database connection errors, input validation errors, and unexpected exceptions.
 
 # Code Summary
 ## 1️.Import Required Library  
