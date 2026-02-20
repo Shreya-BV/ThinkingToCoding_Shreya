@@ -10,24 +10,61 @@ Also learn:
 * How to store values in .env
 * How to call environment variables in the project
   
-# Logic Summary
-1.Establish a connection to the local MongoDB server and verify availability.
+# WHAT I LEARNED FROM TASK 1
+Task 1: Learn basic GitHub commands using VS / VS Code
 
-2.Access or create the required database and collection.
+From Task 1, I learned how to use Git and GitHub for version control using VS Code / Git Bash.
 
-3.Accept a word or sentence from the user.
+Key things I learned:
 
-4.Validate the input to ensure it is not empty.
+How to initialize Git in a project using git init
 
-5.Count vowels by iterating through each character in the input.
+How to check file status using git status
 
-6.Display the total number of vowels.
+How to add files to Git tracking using git add
 
-7.Capture the current date and time.
+How to save project versions using git commit
 
-8.Store the input, vowel count, and timestamp as a document in MongoDB.
+How to configure Git username and email
 
-9.Handle database connection errors, input validation errors, and unexpected exceptions.
+How to create a GitHub repository
+
+How to connect a local project to GitHub
+
+How to push code to GitHub using git push
+
+How to verify commits locally and on GitHub
+
+# WHAT I LEARNED FROM TASK 2
+Task 2: Configure database values using config and .env
+
+From Task 2, I learned how to securely manage configuration values instead of hardcoding them in code.
+
+Key things I learned:
+
+What environment variables are
+
+How to create a .env file
+
+How to store database values like:
+
+Database URL
+
+Database name
+
+Collection name
+
+How to install and use python-dotenv
+
+How to read environment variables using os.getenv()
+
+How to create a config.py file to manage configuration
+
+How to reuse configuration values across the project
+
+Why .env files should not be uploaded to GitHub
+
+
 
 # Code Summary
 1.The program starts by importing required libraries for MongoDB connectivity, error handling, and date-time operations.
