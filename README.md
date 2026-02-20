@@ -200,17 +200,17 @@ except Exception as e:
 
 
 # Conclusion
-1.Task 1 helped me understand how to use Git and GitHub through VS Code for version control.
+1. Task 1 helped me understand how to use Git and GitHub through VS Code for version control.
 
-2.I learned how to initialize a repository, track files, commit changes, and push code to GitHub.
+2. I learned how to initialize a repository, track files, commit changes, and push code to GitHub.
 
-3.This task improved my understanding of code management and collaboration.
+3. This task improved my understanding of code management and collaboration.
 
-4.Task 2 taught me how to manage database configuration securely using environment variables.
+4. Task 2 taught me how to manage database configuration securely using environment variables.
 
-5.I learned to create and use a .env file and a config file to store database values.
+5. I learned to create and use a .env file and a config file to store database values.
 
-6.This helped me avoid hardcoding sensitive information and follow industry best practices.
+6. This helped me avoid hardcoding sensitive information and follow industry best practices.
 
 
 
