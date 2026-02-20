@@ -65,7 +65,7 @@ try:
     client = MongoClient("mongodb://localhost:27017/")
     client.admin.command('ping')
 
-    db = client["vowels"]
+    db = client["internship_db"]
     collection = db["vowel_data"]
 
     user_input = input("Enter a word or sentence: ")
