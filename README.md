@@ -15,7 +15,7 @@ Task 1: Learn basic GitHub commands using VS / VS Code
 
 From Task 1, I learned how to use Git and GitHub for version control using VS Code / Git Bash.
 
-Key things I learned:
+## Key things I learned:
 
 How to initialize Git in a project using git init
 
@@ -40,7 +40,7 @@ Task 2: Configure database values using config and .env
 
 From Task 2, I learned how to securely manage configuration values instead of hardcoding them in code.
 
-Key things I learned:
+## Key things I learned:
 
 What environment variables are
 
@@ -67,31 +67,38 @@ Why .env files should not be uploaded to GitHub
 
 
 # Code Summary
-1.The program starts by importing required libraries for MongoDB connectivity, error handling, and date-time operations.
+1.Import Required Libraries  
+MongoClient to connect to MongoDB  
+ConnectionFailure to handle database connection errors  
+datetime to store the current date and time
 
-2.It establishes a connection to the local MongoDB server using MongoClient.
+2.Connect to MongoDB  
+Connects to MongoDB running on localhost  
+Uses a ping command to check if MongoDB is running
 
-3.A ping command is used to verify that MongoDB is running before performing any database operations.
+3.Select Database and Collection  
+Database: internship_db  
+Collection: vowel_data
 
-4.The program accesses (or creates) a database named vowels and a collection named vowel_data.
+4.Take User Input  
+Prompts the user to enter a word or sentence  
+Raises an error if the input is empty
 
-5.It prompts the user to enter a word or sentence as input.
+5.Count Vowels  
+Iterates through each character in the input  
+Counts vowels (both uppercase and lowercase)
 
-6.Input validation is performed to ensure that the user does not submit an empty value.
+6.Store Data in MongoDB  
+Stores the input text, vowel count, and timestamp  
+Inserts the data as a document into MongoDB
 
-7.A predefined set of vowels is used to handle both uppercase and lowercase characters.
+7.Exception Handling  
+Handles MongoDB connection errors  
+Handles empty input errors  
+Catches unexpected errors safely  
+Handles empty input and unexpected errors
 
-8.The program iterates through each character in the input string and counts vowels using conditional checks.
 
-9,The total vowel count is displayed to the user.
-
-10.The current date and time are captured using the datetime module to track when the data is created.
-
-11.The input, vowel count, and timestamp are stored together as a document in MongoDB.
-
-12.Exception handling is implemented to handle MongoDB connection failures, invalid input errors, and unexpected runtime issues.
-
-13.User-friendly messages are displayed for both successful execution and error scenarios.
 # Python Code
 ~~~Python
 from pymongo import MongoClient
@@ -140,26 +147,7 @@ except Exception as e:
     print("Unexpected Error:", e)
 ~~~
 
-# What I Learned
-Learned how to take dynamic user input and process strings in Python.
 
-Understood how to implement loop and conditional logic to count vowels in a sentence.
-
-Learned how to handle both uppercase and lowercase characters using a predefined vowel set.
-
-Gained hands-on experience connecting Python to MongoDB using the PyMongo library.
-
-Learned how MongoDB databases and collections are created and accessed programmatically.
-
-Understood how to store application data in MongoDB using document-based storage.
-
-Learned how to capture and store timestamps using Python’s datetime module.
-
-Implemented exception handling to manage database connection issues and invalid user input.
-
-Learned how to make a program more robust by preventing crashes using try and except.
-
-Gained basic understanding of backend data persistence concepts.
 # Execution Screenshot
 
 
