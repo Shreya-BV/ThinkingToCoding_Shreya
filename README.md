@@ -1,6 +1,15 @@
 # Count Vowels in a Word
 ## Task- Ask the user to enter a word or a sentence,then count and display the number of vowels in the input.  Example-   Input: "Hello World"    Output: 3 vowels
+# Task given (today)
+## Task 1:Learn all the basic GitHub commands using VS / VS Code.
 
+## Task 2:Configure database values like DB URL, DB name, and required APIs.
+Store them in a config file and use them whenever needed.
+Also learn:
+* How to create a .env file
+* How to store values in .env
+* How to call environment variables in the project
+  
 # Logic Summary
 1.Establish a connection to the local MongoDB server and verify availability.
 
