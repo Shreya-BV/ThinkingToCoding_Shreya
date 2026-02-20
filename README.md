@@ -169,6 +169,28 @@ except Exception as e:
 <img width="456" height="318" alt="Screenshot 2026-02-15 195155" src="https://github.com/user-attachments/assets/9a8bfdc1-a558-4fa1-89fe-bdf00034c9a2" />
 
 
+# .env file
+<img width="1501" height="443" alt="Screenshot 2026-02-20 183714" src="https://github.com/user-attachments/assets/b667de0d-04f8-4152-a8d7-02f41cbdb417" />
+
+
+
+
+
+
+
+# config.py File
+<img width="1505" height="411" alt="Screenshot 2026-02-20 183846" src="https://github.com/user-attachments/assets/42907c71-27be-4da1-ae81-31dcde458888" />
+
+
+
+
+
+# Github Repository view
+
+
+
+
+
 
 
 
